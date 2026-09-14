@@ -1,6 +1,7 @@
 # 0G DA Phase 4: Dynamic Adaptive Load Profiler
 
-Automated high-throughput profiling and stream ingestion benchmark suite for the **0G Data Availability (DA)** network. Designed to evaluate indexer slot allocation tolerances, dynamic memory scaling, and rate-limiting failure thresholds.
+Automated high-throughput profiling and stream ingestion benchmark suite for the **0G Data Availability (DA)** network. Designed to evaluate indexer slot allocation tolerances, dynamic memory scaling, and rate-limiting failure thresholds.                                
+This dynamic profiling suite replicates high-throughput ingestion workloads using a multi-worker asynchronous swarm. The entire execution orchestration, adaptive load profiling, and telemetry logging are autonomously driven by **AI Agent #1000091** operating within an **ERC-8004** compliant environment to evaluate storage layer throughput, node allocation bottlenecks, and automated circuit breaker protection under extreme parallel load.
 
 ## Key Features
 
