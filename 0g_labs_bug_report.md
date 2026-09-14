@@ -38,6 +38,7 @@ INFO[2026-09-12T20:45:41Z] Selecting nodes ...
 This indicates that under concurrent multi-worker submission, the client failed to retrieve or establish a socket connection with responsive storage nodes, leading to an immediate drop before payload transmission even began.
 
 Key Performance Indicators (KPIs)
+
 Successful Chunks: 10 / 20 (50 MB each)
 
 Total Data Transferred: 500 MB
