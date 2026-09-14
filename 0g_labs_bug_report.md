@@ -1,4 +1,4 @@
-```markdown
+
 # 0G DA Phase 4: Dynamic Adaptive Load Profiling & Circuit Breaker Report
 
 ## Summary
@@ -32,4 +32,20 @@ During Epoch x1, 20 chunks of 50 MB were processed concurrently across 10 dynami
 
 ### 2. Node Selection Saturation Error
 All 10 failed operations crashed at the identical initialization step:
-```text
+INFO[2026-09-14T11:31:23Z] Selecting nodes ...
+
+This indicates that under concurrent multi-worker submission, the client failed to retrieve or establish a socket connection with responsive storage nodes, leading to an immediate drop before payload transmission even began.
+
+Key Performance Indicators (KPIs)
+
+Successful Chunks: 10 / 20 (50 MB each)
+
+Total Data Transferred: 500 MB
+
+Total Epoch Time: 78.38 seconds
+
+Fastest Successful Ingest: 27.79s (Worker #02 | Tag 1_c11)
+
+Slowest Successful Ingest: 43.31s (Worker #07 | Tag 1_c16)
+
+Average Node Response Delay: ~31.2 seconds
