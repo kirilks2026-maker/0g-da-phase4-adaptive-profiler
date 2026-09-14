@@ -33,3 +33,18 @@ During Epoch x1, 20 chunks of 50 MB were processed concurrently across 10 dynami
 All 10 failed operations crashed at the identical initialization step:
 ```text
 INFO[2026-09-12T20:45:41Z] Selecting nodes ...
+
+This indicates that under concurrent multi-worker submission, the client failed to retrieve or establish a socket connection with responsive storage nodes, leading to an immediate drop before payload transmission even began.
+
+Key Performance Indicators (KPIs)
+Successful Chunks: 10 / 20 (50 MB each)
+
+Total Data Transferred: 500 MB
+
+Total Epoch Time: 69.76 seconds
+
+Fastest Successful Ingest: 26.05s (Worker #02 | Tag 1_c11)
+
+Slowest Successful Ingest: 37.71s (Worker #06 | Tag 1_c5)
+
+Average Node Response Delay: ~27.5 seconds
