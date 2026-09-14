@@ -12,7 +12,7 @@ Automated high-throughput profiling and stream ingestion benchmark suite for the
 
 ### Phase 4 Profiler Initiation
 
-```text
+
 🚀 [Phase 4] Starting Dynamic Adaptive Load Profiler
 📊 Configuration: 10 Workers | Dynamic Scaling (50MB ➔ 500MB)
 
@@ -42,9 +42,9 @@ Automated high-throughput profiling and stream ingestion benchmark suite for the
 
 🛑 [Circuit Breaker] Failure Threshold Discovered at 50MB per chunk! (Drop Rate: 50%)
 
-```text
+
 Requirements & Setup
-```text
+```
 npm install
 node uploader_phase4.js
-
+```
