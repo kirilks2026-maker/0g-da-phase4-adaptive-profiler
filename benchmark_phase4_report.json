@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-12T20:45:41.052Z",
+    "timestamp": "2026-09-14T11:31:23.340Z",
     "framework_phase": "Phase-4 (Adaptive Dynamic Load Profiler)",
     "summary": {
         "total_success_txs": 10,
@@ -12,7 +12,7 @@
             "epoch": 1,
             "chunk_size_mb": 50,
             "total_chunks": 20,
-            "duration_sec": 69.76,
+            "duration_sec": 78.38,
             "successful": 10,
             "failed": 10,
             "drop_rate_percent": 50,
@@ -20,131 +20,131 @@
                 {
                     "success": false,
                     "workerId": 1,
-                    "timeSec": 18.54,
-                    "error": "\u001b[36mINFO\u001b[0m[2026-09-12T20:45:41Z] Selecting nodes ...                          ",
+                    "timeSec": 19.47,
+                    "error": "\u001b[36mINFO\u001b[0m[2026-09-14T11:31:23Z] Selecting nodes ...                          ",
                     "chunkSizeMB": 50
                 },
                 {
                     "success": true,
                     "workerId": 2,
-                    "timeSec": 26.88,
+                    "timeSec": 28.59,
                     "chunkSizeMB": 50
                 },
                 {
                     "success": false,
                     "workerId": 3,
-                    "timeSec": 17.99,
-                    "error": "\u001b[36mINFO\u001b[0m[2026-09-12T20:45:41Z] Selecting nodes ...                          ",
+                    "timeSec": 19.19,
+                    "error": "\u001b[36mINFO\u001b[0m[2026-09-14T11:31:24Z] Selecting nodes ...                          ",
                     "chunkSizeMB": 50
                 },
                 {
                     "success": true,
                     "workerId": 4,
-                    "timeSec": 26.37,
+                    "timeSec": 31.78,
                     "chunkSizeMB": 50
                 },
                 {
                     "success": false,
                     "workerId": 5,
-                    "timeSec": 18.08,
-                    "error": "\u001b[36mINFO\u001b[0m[2026-09-12T20:45:42Z] Selecting nodes ...                          ",
+                    "timeSec": 19.43,
+                    "error": "\u001b[36mINFO\u001b[0m[2026-09-14T11:31:24Z] Selecting nodes ...                          ",
                     "chunkSizeMB": 50
                 },
                 {
                     "success": true,
                     "workerId": 6,
-                    "timeSec": 37.71,
+                    "timeSec": 31.12,
                     "chunkSizeMB": 50
                 },
                 {
                     "success": true,
                     "workerId": 7,
-                    "timeSec": 28.97,
+                    "timeSec": 29.16,
                     "chunkSizeMB": 50
                 },
                 {
                     "success": true,
                     "workerId": 8,
-                    "timeSec": 26.73,
+                    "timeSec": 28.88,
                     "chunkSizeMB": 50
                 },
                 {
                     "success": false,
                     "workerId": 9,
-                    "timeSec": 16.85,
-                    "error": "\u001b[36mINFO\u001b[0m[2026-09-12T20:45:44Z] Selecting nodes ...                          ",
+                    "timeSec": 19.82,
+                    "error": "\u001b[36mINFO\u001b[0m[2026-09-14T11:31:26Z] Selecting nodes ...                          ",
                     "chunkSizeMB": 50
                 },
                 {
                     "success": false,
                     "workerId": 10,
-                    "timeSec": 18.09,
-                    "error": "\u001b[36mINFO\u001b[0m[2026-09-12T20:45:45Z] Selecting nodes ...                          ",
+                    "timeSec": 18.98,
+                    "error": "\u001b[36mINFO\u001b[0m[2026-09-14T11:31:27Z] Selecting nodes ...                          ",
                     "chunkSizeMB": 50
                 },
                 {
                     "success": false,
                     "workerId": 1,
-                    "timeSec": 17.81,
-                    "error": "\u001b[36mINFO\u001b[0m[2026-09-12T20:46:20Z] Selecting nodes ...                          ",
+                    "timeSec": 20.87,
+                    "error": "\u001b[36mINFO\u001b[0m[2026-09-14T11:31:56Z] Selecting nodes ...                          ",
                     "chunkSizeMB": 50
                 },
                 {
                     "success": true,
                     "workerId": 2,
-                    "timeSec": 26.05,
+                    "timeSec": 27.79,
                     "chunkSizeMB": 50
                 },
                 {
                     "success": false,
                     "workerId": 3,
-                    "timeSec": 17.51,
-                    "error": "\u001b[36mINFO\u001b[0m[2026-09-12T20:46:21Z] Selecting nodes ...                          ",
+                    "timeSec": 20.35,
+                    "error": "\u001b[36mINFO\u001b[0m[2026-09-14T11:31:56Z] Selecting nodes ...                          ",
                     "chunkSizeMB": 50
                 },
                 {
                     "success": true,
                     "workerId": 4,
-                    "timeSec": 27.99,
+                    "timeSec": 30.84,
                     "chunkSizeMB": 50
                 },
                 {
                     "success": false,
                     "workerId": 5,
-                    "timeSec": 17.73,
-                    "error": "\u001b[36mINFO\u001b[0m[2026-09-12T20:46:21Z] Selecting nodes ...                          ",
+                    "timeSec": 19.44,
+                    "error": "\u001b[36mINFO\u001b[0m[2026-09-14T11:31:57Z] Selecting nodes ...                          ",
                     "chunkSizeMB": 50
                 },
                 {
                     "success": true,
                     "workerId": 6,
-                    "timeSec": 27.21,
+                    "timeSec": 30.69,
                     "chunkSizeMB": 50
                 },
                 {
                     "success": true,
                     "workerId": 7,
-                    "timeSec": 28.04,
+                    "timeSec": 43.31,
                     "chunkSizeMB": 50
                 },
                 {
                     "success": true,
                     "workerId": 8,
-                    "timeSec": 26.24,
+                    "timeSec": 42.02,
                     "chunkSizeMB": 50
                 },
                 {
                     "success": false,
                     "workerId": 9,
-                    "timeSec": 17.62,
-                    "error": "\u001b[36mINFO\u001b[0m[2026-09-12T20:46:23Z] Selecting nodes ...                          ",
+                    "timeSec": 19.25,
+                    "error": "\u001b[36mINFO\u001b[0m[2026-09-14T11:31:59Z] Selecting nodes ...                          ",
                     "chunkSizeMB": 50
                 },
                 {
                     "success": false,
                     "workerId": 10,
-                    "timeSec": 16.83,
-                    "error": "\u001b[36mINFO\u001b[0m[2026-09-12T20:46:24Z] Selecting nodes ...                          ",
+                    "timeSec": 18.33,
+                    "error": "\u001b[36mINFO\u001b[0m[2026-09-14T11:32:00Z] Selecting nodes ...                          ",
                     "chunkSizeMB": 50
                 }
             ]
