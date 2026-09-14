@@ -15,7 +15,7 @@ Automated high-throughput profiling and stream ingestion benchmark suite for the
 
 🚀 [Phase 4] Starting Dynamic Adaptive Load Profiler
 📊 Configuration: 10 Workers | Dynamic Scaling (50MB ➔ 500MB)
-
+```
 ➔ 🧭 Epoch x1 [Step: 50MB/chunk | Load: 20 Chunks (0.98 GB)]
 [+00:00.001] ⚡ Allocating dynamic 50MB RAM buffer (Anti-Compression pattern)...
 [+00:19.530] [Worker #01 | Tag 1_c0   ] Failed   : INFO[2026-09-14T11:31:23Z] Selecting nodes ...
@@ -42,7 +42,7 @@ Automated high-throughput profiling and stream ingestion benchmark suite for the
 
 🛑 [Circuit Breaker] Failure Threshold Discovered at 50MB per chunk! (Drop Rate: 50%)
 
-
+```
 Requirements & Setup
 ```
 npm install
