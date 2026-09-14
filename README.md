@@ -41,3 +41,10 @@ Automated high-throughput profiling and stream ingestion benchmark suite for the
 📈 Epoch x1 (50MB) Finished: 10 OK / 10 Failed | Duration: 78.38s | Drop Rate: 50%
 
 🛑 [Circuit Breaker] Failure Threshold Discovered at 50MB per chunk! (Drop Rate: 50%)
+```text
+
+Requirements & Setup
+```
+npm install
+node uploader_phase4.js
+```
