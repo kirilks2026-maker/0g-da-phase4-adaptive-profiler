@@ -33,6 +33,7 @@ During Epoch x1, 20 chunks of 50 MB were processed concurrently across 10 dynami
 All 10 failed operations crashed at the identical initialization step:
 ```text
 INFO[2026-09-12T20:45:41Z] Selecting nodes ...
+```
 
 This indicates that under concurrent multi-worker submission, the client failed to retrieve or establish a socket connection with responsive storage nodes, leading to an immediate drop before payload transmission even began.
 
